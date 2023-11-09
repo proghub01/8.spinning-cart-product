@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="product-container">
+            <div class="productImg">
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
+                </div>
+    
+                <img id="product-image" src="Source/1.png" alt="Product Image">
+            </div>
+
+            <div class="productDesc">
+                <h2 id="title">PlayStation 5</h2>
+
+                <div class="specs">    
+                    <div id="spec">
+                        <h3>Processor:</h3>
+                        <p>AMD Ryzen Zen 2</p>
+                    </div>
+
+                    <div id="spec">
+                        <h3>Cores:</h3>
+                        <p>8</p>
+                    </div>
+
+                    <div id="spec">
+                        <h3>CPU frequency:</h3>
+                        <p>3,5 GHz</p>
+                    </div>
+
+                    <div id="spec">
+                        <h3>SSD:</h3>
+                        <p>825 GB</p>
+                    </div>
+
+                    <div id="spec">
+                        <h3>RAM:</h3>
+                        <p>16 GB</p>
+                    </div>
+
+                    <button>
+                        <ion-icon name="cart-outline" id="buy-icon"></ion-icon>
+                        BUY
+                    </button>
+
+                    <div id="price">
+                        <h2>599 $</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
